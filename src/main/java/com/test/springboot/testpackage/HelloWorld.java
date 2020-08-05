@@ -8,7 +8,7 @@ public class HelloWorld {
 
     @RequestMapping("/testhello")
     public String testhello() {
-        return "Hello world!";
+        return ("Hello world!" + "\t" + "测试中文乱码问题");
     }
 
 }
